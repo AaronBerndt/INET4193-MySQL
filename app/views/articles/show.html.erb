@@ -1,0 +1,27 @@
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @article.authoer %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @article.email %>
+</p>
+
+<p>
+  <strong>Phone Number:</strong>
+  <%= @article.phone_number %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @article.text %>
+</p>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
